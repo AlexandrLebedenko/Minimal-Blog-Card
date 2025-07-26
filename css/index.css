@@ -3,7 +3,7 @@
   min-height: 100vh;
   min-width: 100%;
   font-family: "Sora", sans-serif;
-  padding: 10.25rem 0;
+  padding: 10.25rem 1.5rem;
   background-color: #fafaf9;
   color: #394150;
 }
@@ -46,7 +46,7 @@
 .card-creator::before {
   content: "";
   display: block;
-  width: 23rem;
+  min-width: 100%;
   margin: 1.25rem -1rem;
   border: 0.0625rem solid #e5eaf0;
 }
